@@ -1,0 +1,24 @@
+name: GItems
+main: global.gitems.Core.Main
+version: 1.7
+author: David
+description: Edit items.
+commands:
+  GItems:
+    aliases: [gitem, item, items]
+    description: Manage the item in your hand.
+  AddLore:
+    description: Add a lore to the item in your hand.
+  Break:
+    description: Break the item in your hand.
+  More:
+    description: Get a stack of the item in your hand.
+  Rename:
+    description: Chance the name of the item in your hand.
+  Repair: 
+    aliases: [fix]
+    description: Repair the item in your hand.
+  SetLore:
+    description: Set the lore.
+  unbreakable:
+    description: Chance the UnBreakabillity of the item in your hand.
